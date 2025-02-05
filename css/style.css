@@ -1,0 +1,236 @@
+/*Common css starts*/
+body{
+	margin: 0;
+	 font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*Common css ends*/
+/*Header starts*/
+header{
+	padding: 40px 0;
+/*	border: 1px solid blue;*/
+}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+/*	border: 1px solid;*/
+}
+.logo{
+	margin-top: 8px;
+	float: left;
+	width: 12%;	
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 75%;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+/*	padding: 0 50px;*/
+	margin: 0 50px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .33s linear;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #000000;
+	border-bottom: 1px solid;
+}
+/*Header ends*/
+/*Banner starts*/
+.banner{
+
+}
+.b_image{
+
+}
+.b_image img{
+	width: 100%;
+}
+/*Banner ends*/
+/*Articler starts*/
+.article{
+	padding: 100px 0 30px;
+
+}
+.container2{
+	margin: 0 auto;
+	overflow: hidden;	
+	width: 80%;
+/*	border: 1px solid green;*/
+}
+.a_content{
+
+}
+.c_link{
+	display: inline-block;
+	font-family: "ubuntu" serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.c_h1{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 24px;
+}
+.comment{
+	margin-top: 45px;
+}
+/*Articler ends*/
+/*Blog starts*/
+.blog{
+	padding: 0 0 100px;
+}
+.blog_item{
+	margin-top: 70px;
+	box-sizing: border-box;
+	float: left;
+	width: 47%;
+}
+.blog_item:nth-child(even){
+	margin-left:6% ;
+}
+.blog_image{
+	margin-bottom: 25px;
+}
+.blog_image img{
+	width: 100%;
+}
+/*Blog ends*/
+/*Newsletter starts*/
+.newsletter{
+	padding: 50px 0;
+	background-color: #f0f0f0;
+}
+.container4{
+	width: 60%;
+	margin: 0 auto;
+}
+.signup{
+	text-align: center;
+}
+.signup h1{
+	font-size: 30px;
+	margin-bottom: 100px;
+}
+.for_form{
+	width: 350px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: relative;
+}
+.for_form input{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	width: 290px;
+	font-size: 18px;
+	padding: 10px 50px 10px 10px;
+	outline: none;
+}
+.for_form button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+}
+/*Newsletter ends*/
+/*Blog2 starts*/
+.blog2{
+	padding-top: 30px;
+}
+.load{
+	padding: 150px 0 100px;
+	text-align: center;
+}
+.l_btn{
+	width: 165px;
+	height: 60px;
+	background-color: transparent;
+	border-radius: 0;
+	border: 1px solid #626262;
+	font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+    transition: .33s linear;
+}
+.l_btn:hover{
+	color: white;
+	background-color: #626262;
+}
+/*Blog2 ends*/
+/*Footer starts*/
+footer{
+	background-color: #f0f0f0;
+	padding: 20px 0 35px;
+/*	border: 1px solid;*/
+}
+.pages{
+	float: left;
+	width: 25%;
+}
+.pages ul{
+
+}
+.pages ul li{
+	float: left;
+	list-style: none;
+}
+.pages ul li a{
+	margin-left: 15px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+}
+.social{
+	float: right;
+	width: 15%;
+}
+.social ul{}
+.social ul li{
+	float: left;
+	list-style: none;
+}
+.social ul li span {
+    display: block;
+    margin-top: 0px;
+}
+.social ul li a{
+	margin-left: 15px;
+	color: #626262;
+	display: inline-block;
+}
+.social ul li a img{
+	width: 100%;
+}
+/*Footer ends*/
