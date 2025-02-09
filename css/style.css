@@ -49,7 +49,7 @@ header{
 	border-bottom: 1px solid transparent;
 }
 .menu ul li:last-child a{
-	padding-right: 0;
+	margin-right: 0;
 }
 .menu ul li a:hover{
 	color: #000000;
